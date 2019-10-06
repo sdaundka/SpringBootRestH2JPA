@@ -1,0 +1,23 @@
+package com.demorestapp.resource.dao;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import com.demorestapp.resource.entities.User;
+
+public class UserDao {
+
+	private static List<User> userList = new ArrayList<>();
+	
+	static {
+		userList.add(new User(1, "Ram", new Date()));
+		userList.add(new User(2, "Shyam", new Date()));
+		userList.add(new User(3, "Pappu", new Date()));
+	}
+	
+	List<User> retrieveAllUsers(){
+		return userList;
+	}
+	
+}

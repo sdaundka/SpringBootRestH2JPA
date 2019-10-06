@@ -1,0 +1,20 @@
+package com.demorestapp.resource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.demorestapp.resource.dao.UserDao;
+
+@RestController
+public class UserController {
+
+	@Autowired
+	private UserDao userDao;
+	
+	@GetMapping(path="users")
+	public String getAllUsers() {
+		return "Hello User";
+	}
+	
+}

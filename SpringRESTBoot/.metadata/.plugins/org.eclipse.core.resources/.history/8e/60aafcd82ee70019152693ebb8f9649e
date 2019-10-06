@@ -1,0 +1,7 @@
+package com.demorestapp.resource.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserH2Repository extends JpaRepository<User, Integer> {
+
+}

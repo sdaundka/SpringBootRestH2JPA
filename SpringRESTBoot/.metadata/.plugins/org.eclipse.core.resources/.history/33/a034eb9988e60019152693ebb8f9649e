@@ -1,0 +1,10 @@
+package com.demorestapp.resource.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class UserDao {
+
+	private static List<User> userList = new ArrayList<>();
+	
+}

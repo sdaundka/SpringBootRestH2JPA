@@ -1,0 +1,12 @@
+package com.demorestapp.resource;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserController {
+
+	public String sayHello() {
+		return "Hello User";
+	}
+	
+}

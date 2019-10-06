@@ -1,0 +1,61 @@
+package com.demorestapp.resource.entities;
+
+public class User {
+	
+	private int userId;
+	private String firstName;
+	private Address address;
+	private Contact contact;
+	
+	public User() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	public User(int userId, String firstName, Address address, Contact contact) {
+		super();
+		this.userId = userId;
+		this.firstName = firstName;
+		this.address = address;
+		this.contact = contact;
+	}
+
+	public int getUserId() {
+		return userId;
+	}
+
+	public void setUserId(int userId) {
+		this.userId = userId;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public Address getAddress() {
+		return address;
+	}
+
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+
+	public Contact getContact() {
+		return contact;
+	}
+
+	public void setContact(Contact contact) {
+		this.contact = contact;
+	}
+
+	@Override
+	public String toString() {
+		return "User [userId=" + userId + ", firstName=" + firstName + ", address=" + address + ", contact=" + contact
+				+ "]";
+	}
+	
+}

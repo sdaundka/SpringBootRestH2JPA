@@ -1,0 +1,12 @@
+package com.demorestapp.resource.exception;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+
+@ControllerAdvice
+public class ExceptionHandlerAdvice {
+
+	 public ResponseEntity<String> handleNotFoundException(DogsNotFoundException e) {
+		 
+	 }
+	
+}

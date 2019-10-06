@@ -1,0 +1,5 @@
+package com.demorestapp.resource.exception;
+
+public class ErrorResponse {
+
+}

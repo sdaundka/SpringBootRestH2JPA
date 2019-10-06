@@ -1,0 +1,9 @@
+package com.demorestapp.resource.entities;
+
+public class User {
+	
+	private int userId;
+	private String userName;
+	private Date dateOfBirth;
+	
+}

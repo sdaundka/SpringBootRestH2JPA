@@ -1,0 +1,7 @@
+package com.demorestapp.resource.entities;
+
+public class Contact {
+
+	private String mobile;
+	private String email;
+}

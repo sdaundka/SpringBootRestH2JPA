@@ -1,0 +1,13 @@
+package com.demorestapp.resource.entities;
+
+import java.util.Date;
+
+public class User {
+	
+	private int userId;
+	private String firstName;
+	private Address address;
+	private Contact contact;
+	
+	
+}

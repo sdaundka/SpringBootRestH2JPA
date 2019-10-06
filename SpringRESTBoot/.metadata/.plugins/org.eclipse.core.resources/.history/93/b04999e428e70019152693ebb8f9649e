@@ -1,0 +1,12 @@
+package com.demorestapp.resource.exception;
+
+import java.util.Date;
+
+public class ErrorResponse {
+	
+	private Date date;
+	private String statusCode;
+	private String message;
+	
+	
+}

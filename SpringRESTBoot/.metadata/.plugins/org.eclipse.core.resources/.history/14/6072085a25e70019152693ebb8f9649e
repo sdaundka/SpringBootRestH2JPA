@@ -1,0 +1,5 @@
+package com.demorestapp.resource.entities;
+
+public class Address {
+
+}

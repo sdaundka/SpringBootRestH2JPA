@@ -1,0 +1,14 @@
+package com.demorestapp.resource.exception;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+
+@ControllerAdvice
+public class ExceptionHandlerAdvice {
+
+	 public ResponseEntity<ErrorResponse> handleUserNotFoundException(UserNotFoundException e) {
+		 ErrorResponse errorResponse = new ErrorResponse(new Date(), HttpStatus.NOT_FOUND, e.getMessage());
+	 }
+	
+}

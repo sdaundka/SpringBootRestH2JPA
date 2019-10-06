@@ -1,0 +1,5 @@
+package com.demorestapp.resource.dao;
+
+public class UserDao {
+
+}
